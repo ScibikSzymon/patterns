@@ -137,6 +137,14 @@
       <Project>{32dcb1e4-32fb-4432-9085-e80fc8ac7edc}</Project>
       <Name>Infrastructure</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MailContextModule\MailContextModule.csproj">
+      <Project>{a2c45d42-62f9-497b-87d8-97b3281705cc}</Project>
+      <Name>MailContextModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MailListModule\MailListModule.csproj">
+      <Project>{57957819-08df-4522-852d-34560ddcefe5}</Project>
+      <Name>MailListModule</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
