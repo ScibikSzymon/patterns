@@ -7,6 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPatterns", "DesignPat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{CDA82B44-E48C-4821-BAA5-0A40A2A96165}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prism", "Prism", "{0EE1B63F-3036-4C25-9363-D6916371E246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismExampleWpf", "PrismExampleWpf\PrismExampleWpf.csproj", "{9B8F9AD8-BCF5-440D-B679-0ECAE91E38A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{32DCB1E4-32FB-4432-9085-E80FC8AC7EDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +23,22 @@ Global
 		{CDA82B44-E48C-4821-BAA5-0A40A2A96165}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDA82B44-E48C-4821-BAA5-0A40A2A96165}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDA82B44-E48C-4821-BAA5-0A40A2A96165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8F9AD8-BCF5-440D-B679-0ECAE91E38A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8F9AD8-BCF5-440D-B679-0ECAE91E38A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8F9AD8-BCF5-440D-B679-0ECAE91E38A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8F9AD8-BCF5-440D-B679-0ECAE91E38A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32DCB1E4-32FB-4432-9085-E80FC8AC7EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32DCB1E4-32FB-4432-9085-E80FC8AC7EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32DCB1E4-32FB-4432-9085-E80FC8AC7EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32DCB1E4-32FB-4432-9085-E80FC8AC7EDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CDA82B44-E48C-4821-BAA5-0A40A2A96165} = {49193385-6382-40FA-AC12-AAD6CE305CD6}
+		{9B8F9AD8-BCF5-440D-B679-0ECAE91E38A5} = {0EE1B63F-3036-4C25-9363-D6916371E246}
+		{32DCB1E4-32FB-4432-9085-E80FC8AC7EDC} = {0EE1B63F-3036-4C25-9363-D6916371E246}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B6C668E3-9DE8-4FAC-85A4-02E036D936E4}
