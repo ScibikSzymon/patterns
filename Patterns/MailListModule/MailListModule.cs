@@ -2,18 +2,16 @@
 using Prism.Modularity;
 using System;
 
-namespace MailListModule
+namespace MailList.Module
 {
     public class MailListModule : IModule
     {
         public void OnInitialized(IContainerProvider containerProvider)
         {
-            throw new NotImplementedException();
         }
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            throw new NotImplementedException();
         }
     }
 }

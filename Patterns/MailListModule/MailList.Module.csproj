@@ -7,8 +7,8 @@
     <ProjectGuid>{57957819-08DF-4522-852D-34560DDCEFE5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MailListModule</RootNamespace>
-    <AssemblyName>MailListModule</AssemblyName>
+    <RootNamespace>MailList.Module</RootNamespace>
+    <AssemblyName>MailList.Module</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

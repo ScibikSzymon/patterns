@@ -3,6 +3,8 @@ using Serilog;
 using Prism.Ioc;
 using Prism.Modularity;
 using System.Windows;
+using MailList.Module;
+using MailContext.Module;
 
 namespace PrismExampleWpf
 {
@@ -41,6 +43,8 @@ namespace PrismExampleWpf
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         { 
             base.ConfigureModuleCatalog(moduleCatalog);
+            _ = moduleCatalog.AddModule<MailListModule>()
+                .AddModule<MailContextModule>();
         }
     }
 }

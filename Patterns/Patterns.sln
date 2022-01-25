@@ -13,9 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismExampleWpf", "PrismExa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{32DCB1E4-32FB-4432-9085-E80FC8AC7EDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailListModule", "MailListModule\MailListModule.csproj", "{57957819-08DF-4522-852D-34560DDCEFE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailList.Module", "MailListModule\MailList.Module.csproj", "{57957819-08DF-4522-852D-34560DDCEFE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailContextModule", "MailContextModule\MailContextModule.csproj", "{A2C45D42-62F9-497B-87D8-97B3281705CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailContext.Module", "MailContextModule\MailContext.Module.csproj", "{A2C45D42-62F9-497B-87D8-97B3281705CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
