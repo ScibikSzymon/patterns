@@ -24,7 +24,6 @@ namespace PrismExampleWpf
         {
             LoggerRunner.Run();
 
-            Log.Information("Hi from eviXscan Measurement Analizer");
             Log.Debug("Initializing shell");
 
             base.InitializeShell(shell);
@@ -36,6 +35,7 @@ namespace PrismExampleWpf
         {
             base.OnStartup(e);
             Container.Resolve<IApplicationViewManager>().ShowView("MailContextV");
+            Container.Resolve<IApplicationViewManager>().ShowView("MailListV");
 
         }
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
