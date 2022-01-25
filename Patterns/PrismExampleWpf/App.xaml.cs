@@ -5,6 +5,8 @@ using Prism.Modularity;
 using System.Windows;
 using MailList.Module;
 using MailContext.Module;
+using PrismExampleWpf.Model;
+using Infrastructure;
 
 namespace PrismExampleWpf
 {
@@ -33,11 +35,12 @@ namespace PrismExampleWpf
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-           
+            Container.Resolve<IApplicationViewManager>().ShowView("MailContextV");
+
         }
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-        
+            containerRegistry.RegisterSingleton<IApplicationViewManager, ApplicationViewManager>();
         }
 
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)

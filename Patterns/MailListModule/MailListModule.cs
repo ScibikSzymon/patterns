@@ -1,4 +1,6 @@
-﻿using Prism.Ioc;
+﻿using MailList.Module.View;
+using MailList.Module.ViewModel;
+using Prism.Ioc;
 using Prism.Modularity;
 using System;
 
@@ -12,6 +14,7 @@ namespace MailList.Module
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.RegisterForNavigation<MailListV, MailListVM>();
         }
     }
 }

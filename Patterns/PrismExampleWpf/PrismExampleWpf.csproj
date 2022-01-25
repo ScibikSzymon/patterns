@@ -94,6 +94,8 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="LoggerRunner.cs" />
+    <Compile Include="Model\ApplicationViewManager.cs" />
+    <Compile Include="Model\ViewInfo.cs" />
     <Compile Include="Shell.xaml.cs">
       <DependentUpon>Shell.xaml</DependentUpon>
     </Compile>
